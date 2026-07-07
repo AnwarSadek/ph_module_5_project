@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+    background-color: rgb(203, 203, 222);
+}
+
+img {
+    max-width: 100%;
+}
+
+/* common_button_style */
+.common-btn {
+    background-color: orange;
+    padding: 6px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+
+.outline-btn {
+    background-color: rgb(255, 255, 255);
+    padding: 6px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(255, 151, 40);
+    border: 1px solid orange;
+    cursor: pointer;
+}
+
+header {
+    background-color: #e6a1a1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* hero section style */
+.hero-parent {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.hero-left h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+.hero-left-p1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hero-left-btn-parent {
+    margin-top: 10px;
+}
+
+/* about us css  */
+.about-parent {
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-parent p {
+    margin: 10px 0;
+}
+
+.about-box-parent {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+/* what i do section css  */
+.what-i-do-parent {
+    margin: 60px auto;
+    text-align: center;
+}
+
+.what-i-do-card-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.what-i-do-card-container .what-i-do-card {
+    border: 2px solid orange;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.what-i-do-card-container .what-i-do-card p {
+    color: gray;
+    font-size: 15px;
+}
+
+.what-i-do-card-container .what-i-do-card h2 {
+    margin: 10px 0;
+}
+
+/* summary css  */
+.summary-parent {
+    margin: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.summary-container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.summary-card {
+    flex: 1;
+}
+
+.summary-card h2 {
+    margin-bottom: 25px;
+}
+
+.summary-card-item {
+    padding: 20px 0;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.summary-card-item h3 {
+    margin-bottom: 8px;
+}
+
+.summary-card-item h4 {
+    color: #757575;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.summary-card-item p {
+    color: #757575;
+    line-height: 1.7;
+}
+
+.commonn-btn {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.commonn-btn button {
+    padding: 12px 25px;
+    border: none;
+    background: #FD6E0A;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
