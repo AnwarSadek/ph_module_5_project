@@ -4,10 +4,6 @@ A simple personal portfolio website built using HTML and CSS.
 This project was created as part of a Programming Hero task to practice
 building and styling a portfolio website.
 
-## 📸 Project Preview
-
-![Portfolio Website Preview](YOUR_SCREENSHOT_URL)
-
 
 ## 🛠️ Technologies Used
 
